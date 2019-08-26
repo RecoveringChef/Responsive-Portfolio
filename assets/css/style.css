@@ -201,20 +201,36 @@ input[type=email] {
 
 
 @media screen and (max-width: 980px) {
-    .guts {
-      background-color: lightblue;
-    }
+    .guts { width: 75%;}
+    .stuff { width: 75%;} 
+    .things { width: 75%;} 
   }
 
-  @media screen and (max-width: 768px){
-    .guts {
-      background-color: rgb(191, 218, 129);
-    }
+  @media screen and (max-width: 768px) {
+    .guts { width: 75%; }
+    .stuff { width: 75%;} 
+    .things { width: 75%;} 
+    #name { float: left;}
+    #email { float: left;}
+    #mess { float: left;}
+
   }
   
 
   @media screen and (max-width: 640px) {
-    .guts {
-      background-color: rgb(196, 77, 93)230, 173);
+    .guts { width: 75%;} 
+    .stuff { width: 75%;} 
+    .things { width: 75%;} 
+    #name { float: left;}
+    #email { float: left;}
+    #mess { float: left;}
+
+
+    .header-contain {width: 85%;}
+
+    h1 { 
+        font-size: 16px;  
     }
+    nav a {font-size: small}
   }
+

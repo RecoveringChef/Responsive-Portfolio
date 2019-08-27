@@ -203,7 +203,10 @@ input[type=email] {
 @media screen and (max-width: 980px) {
     .guts { width: 75%;}
     .stuff { width: 75%;} 
-    .things { width: 75%;} 
+    .things { width: 75%; height: 400px} 
+    #name { float: left;}
+    #email { float: left; margin-left: 9%;}
+    #mess { float: left; width: 275px; margin-left: 9%; }
   }
 
   @media screen and (max-width: 768px) {
@@ -212,7 +215,7 @@ input[type=email] {
     .things { width: 75%;} 
     #name { float: left;}
     #email { float: left;}
-    #mess { float: left;}
+    #mess { float: left; width: 275px; margin-left: 9%; }
 
   }
   
@@ -223,8 +226,9 @@ input[type=email] {
     .things { width: 75%;} 
     #name { float: left;}
     #email { float: left;}
-    #mess { float: left;}
+    #mess { float: left; width: 275px;}
 
+    
 
     .header-contain {width: 85%;}
 

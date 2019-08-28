@@ -228,7 +228,17 @@ input[type=email] {
     #email { float: left;}
     #mess { float: left; width: 275px;}
 
-    
+
+    #image1,
+    #image2,
+    #image3,
+    #image4,
+    #image5,
+    #image6 { clear: both !important;
+        margin: 0px;
+        float: left ;}
+
+
 
     .header-contain {width: 85%;}
 
